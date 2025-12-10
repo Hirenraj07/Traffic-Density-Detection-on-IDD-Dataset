@@ -15,8 +15,9 @@ Built an end-to-end traffic object detection pipeline by fine-tuning YOLOv8 on t
 - `configs/` — training configs and hyperparameters.
 - `assets/` — demo images/GIFs and visual results.
 - `runs/` — **not** tracked (models and logs stored in Drive or Releases).
-
 ---
+
+## Colab Project Structure: https://drive.google.com/drive/folders/1kpaHpU4c9I4S_4b3aaixmsJf8PEl1fTx?usp=sharing
 
 ##  Quick start (Colab)
 1. Mount Drive and clone repo to `/content/drive/MyDrive/...` (or clone locally).
