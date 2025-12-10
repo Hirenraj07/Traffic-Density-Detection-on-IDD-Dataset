@@ -5,9 +5,8 @@ Built an end-to-end traffic object detection pipeline by fine-tuning YOLOv8 on t
 
 **project summary:** Fine-tuned YOLOv8 on the IDD (IIIT-Hyderabad) dataset for robust road-user detection and traffic-density estimation.
 
-**Dataset:** IDD (IIIT-H) — used images & annotations from the IDD Detection split. Source: https://idd.insaan.iiit.ac.in/dataset/details/
-
----
+**Dataset:** This project uses the **India Driving Dataset** (IDD) from **IIIT Hyderabad**, a large-scale dataset for autonomous driving research. 
+            Full dataset details: https://idd.insaan.iiit.ac.in/dataset/details/
 
 ## Repo contents
 - `notebooks/` — Colab notebooks (data prep, training, inference).
