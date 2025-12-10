@@ -19,3 +19,32 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+---
+
+## .gitignore
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.envrc
+.ipynb_checkpoints/
+
+# Data and models (do NOT commit large binaries)
+runs/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.tar.gz
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
